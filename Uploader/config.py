@@ -44,7 +44,7 @@ class Config(object):
     PROCESS_MAX_TIMEOUT = 300
     # watermark file
     DEF_WATER_MARK_FILE = ""
-    DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://anuragb7:anuragb7@cluster0.g5kbflk.mongodb.net/?retryWrites=true&w=majority")
+    DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://mdisk:mdisk@cluster0.fdrl77f.mongodb.net/?retryWrites=true&w=majority")
     SESSION_NAME = os.environ.get("SESSION_NAME", "Uploader-Bot")
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001527701055"))
     LOGGER = logging
